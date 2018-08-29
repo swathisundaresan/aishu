@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.abutech.root.aishu.Main9Activity">
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -12,8 +13,10 @@
         android:text="Bakery Products"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="26dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057"
+        tools:layout_editor_absoluteX="16dp" />
 
     <CheckBox
         android:id="@+id/checkBox6"
@@ -23,8 +26,11 @@
         android:text="cake"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="98dp" />
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212"
+        tools:layout_editor_absoluteX="97dp" />
 
     <CheckBox
         android:id="@+id/checkBox7"
@@ -33,8 +39,11 @@
         android:text="Donut"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="167dp" />
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359"
+        tools:layout_editor_absoluteX="97dp" />
 
     <CheckBox
         android:id="@+id/checkBox8"
@@ -43,8 +52,10 @@
         android:text="Puff"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="239dp" />
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="97dp" />
 
     <CheckBox
         android:id="@+id/checkBox9"
@@ -53,8 +64,11 @@
         android:text="Bread"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="305dp" />
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649"
+        tools:layout_editor_absoluteX="97dp" />
 
     <CheckBox
         android:id="@+id/checkBox10"
@@ -63,8 +77,11 @@
         android:text="chocolates"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="40dp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="369dp" />
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791"
+        tools:layout_editor_absoluteX="97dp" />
 
     <Button
         android:id="@+id/button6"
@@ -73,8 +90,10 @@
         android:layout_height="wrap_content"
         android:text="BUY"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983"
+        tools:layout_editor_absoluteX="36dp" />
 
 
 </android.support.constraint.ConstraintLayout>

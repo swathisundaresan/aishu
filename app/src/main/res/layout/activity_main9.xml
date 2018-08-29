@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abutech.root.aishu.Main9Activity">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bakery Products"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cake"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donut"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:text="Puff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text="Bread"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chocolates"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:text="BUY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+
+</android.support.constraint.ConstraintLayout>

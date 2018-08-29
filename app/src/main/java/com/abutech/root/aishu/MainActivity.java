@@ -1,12 +1,12 @@
 package com.abutech.root.aishu;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.content.Intent;
 public class MainActivity extends AppCompatActivity {
     Button b1;
     EditText ed1;
@@ -30,9 +30,10 @@ public class MainActivity extends AppCompatActivity {
         tx1.setVisibility(View.VISIBLE);
         tx2.setVisibility(View.VISIBLE);
         tx3.setVisibility(View.VISIBLE);
-        Intent myIntent = new Intent(MainActivity.this, Main3Activity.class);
-        startActivity(myIntent);
-
+        if(ed1.length()==10) {
+            Intent myIntent = new Intent(MainActivity.this, Main3Activity.class);
+            startActivity(myIntent);
+        }
     }
     });
 }

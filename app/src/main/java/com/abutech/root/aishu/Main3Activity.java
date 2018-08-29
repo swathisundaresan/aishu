@@ -33,9 +33,10 @@ public class Main3Activity extends AppCompatActivity {
                 tx4.setVisibility(View.VISIBLE);
                 tx5.setVisibility(View.VISIBLE);
                 tx6.setVisibility(View.VISIBLE);
-                Intent myIntent1 = new Intent(Main3Activity.this, Main4Activity.class);
-                startActivity(myIntent1);
-
+                if(ed2.length()==4) {
+                    Intent myIntent1 = new Intent(Main3Activity.this, Main4Activity.class);
+                    startActivity(myIntent1);
+                }
 
             }
         });
